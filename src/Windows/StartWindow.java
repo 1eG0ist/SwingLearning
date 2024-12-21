@@ -1,6 +1,7 @@
 package Windows;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class StartWindow {
 
@@ -12,6 +13,8 @@ public class StartWindow {
         window.setTitle("Starting Window");
         window.setSize(800, 600);
         window.setLocationRelativeTo(null);
+
+        window.add(new JTextArea("Lol KEK"));
     }
 
     public void show() {
